@@ -8,7 +8,7 @@ export default ({url, children}) => {
     
     return (
         <div>
-            {[].concat(children).map((child, index) => cloneElement(child, { "data": response, "key": index}))}
+            {[].concat(children).map((child, index) => cloneElement(child, { "data": response, "key": index }))}
         </div>
     )
 }
